@@ -1,10 +1,5 @@
 # Semantic Segmentation with deep
 
-Requisitos:
-	-tensorflow==1.15
-	-tf_slim==1.0.0
-	-Pillow
-
 1- Etiquetar imagenes y crear una carpeta en /depthai/deeplab/datasets
     
     /adl_pcami_training_etquetas
@@ -106,4 +101,5 @@ Requisitos:
     cd /depthai/oak
     python3 Segmentacion_pcami.py 
       -blob = dai.OpenVINO.Blob("/home/adl/adl/depthai/models/adl_pcami_training_etiquetas.blob")
- 
+      
+      Consultar https://colab.research.google.com/drive/1UPDHzQAb_ALjpveT1XPQno5UIsG5TdPA#scrollTo=XPqEiKXYVZGw 
