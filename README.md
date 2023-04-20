@@ -1,13 +1,14 @@
 # Semantic Segmentation with deep
 
 Requisitos:
-tensorflow==1.15
-tf_slim==1.0.0
-Pillow
+	-tensorflow==1.15
+	-tf_slim==1.0.0
+	-Pillow
 
 1- Etiquetar imagenes y crear una carpeta en /depthai/deeplab/datasets
     
-   Ej: /adl_pcami_training_etquetas
+   Ej: 
+   /adl_pcami_training_etquetas
         -/exp
           -/train_on_trainval_set
             -/eval
