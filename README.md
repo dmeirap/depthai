@@ -7,7 +7,7 @@ Requisitos:
 
 1- Etiquetar imagenes y crear una carpeta en /depthai/deeplab/datasets
     
-   /adl_pcami_training_etquetas
+    /adl_pcami_training_etquetas
         -/exp
           -/train_on_trainval_set
             -/eval
