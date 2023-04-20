@@ -36,11 +36,14 @@ Requisitos:
     'adl_pcami_training_etiquetas':_ADL_PCAMI_TRAINING_ETIQUETAS_INFORMATION,
     }
 
-3- cd /depthai/deeplab/datasets
+3- Convertir datos
+
+   cd /depthai/deeplab/datasets
    python3 label_adl.py #Cambiar las rutas en funcion de la carpeta creada
    python3 build_adl_pcami_data.py #Cambiar las rutas en funcion de la carpeta creada 
    
 4- Entrenar el modelo
+    
     cd /depthai
     sh train_adl_pcami_training.sh #Cambiar las rutas y parametros en funcion de la carpeta creada
     sh eval_adl_pcami_training.sh  #Cambiar las rutas y parametros en funcion de la carpeta creada
