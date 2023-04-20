@@ -1,2 +1,2 @@
 # depthai
-Semantic Segmetation with deep
+Semantic Segmentation with deep
