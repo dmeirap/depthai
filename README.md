@@ -37,10 +37,10 @@ Requisitos:
     }
 
 3- Convertir datos
-
-   cd /depthai/deeplab/datasets
-   python3 label_adl.py #Cambiar las rutas en funcion de la carpeta creada
-   python3 build_adl_pcami_data.py #Cambiar las rutas en funcion de la carpeta creada 
+	
+	cd /depthai/deeplab/datasets
+   	python3 label_adl.py #Cambiar las rutas en funcion de la carpeta creada
+   	python3 build_adl_pcami_data.py #Cambiar las rutas en funcion de la carpeta creada 
    
 4- Entrenar el modelo
     
