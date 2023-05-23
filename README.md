@@ -1,8 +1,9 @@
 # Semantic Segmentation with deep
 
 REQUISITOS:
-tensorflow==1.15
-tf_slim==1.0.0
+python == 3.6.9
+tensorflow == 1.15
+tf_slim == 1.0.0
 
 1- Etiquetar imagenes y crear una carpeta en /depthai/deeplab/datasets
     
