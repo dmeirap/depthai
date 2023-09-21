@@ -1,0 +1,60 @@
+********************************************************************************
+-- miou[model accuracy]
+********************************************************************************
+
+// adl_pcami_seg [(200.000) + pre-training(100.000)] # 5000 imagenes pcami + unity//
+
+	eval/miou_1.0_class_0[0.959475338]
+	eval/miou_1.0_class_1[0.734857261]
+	eval/miou_1.0_class_2[0.68280679]
+	eval/miou_1.0_class_3[nan]
+
+	eval/miou_1.0_overall[0.792379856]
+
+// adl_mcr_seg //
+
+	eval/miou_1.0_class_0[0.935082674]
+	eval/miou_1.0_class_1[0.254382521]
+	eval/miou_1.0_class_2[0.387331247]
+
+	eval/miou_1.0_overall[0.525598824]
+
+// adl_dhl_mcr_seg //
+
+	eval/miou_1.0_class_0[0.960476398]
+	eval/miou_1.0_class_1[0.5530985]
+	eval/miou_1.0_class_2[0.580772877]
+
+	eval/miou_1.0_overall[0.698115885]
+
+// adl_dhl_mcr_seg_wu //
+
+	eval/miou_1.0_class_0[0.96677494]
+	eval/miou_1.0_class_1[0.550048411]
+	eval/miou_1.0_class_2[0.667675674]
+
+	eval/miou_1.0_overall[0.728166342]
+
+//mcr_seg 
+
+	eval/miou_1.0_class_0[0.958071947]
+	eval/miou_1.0_class_1[0.523055]
+	eval/miou_1.0_class_2[0.512521267]
+
+	eval/miou_1.0_overall[0.66454941]
+
+//mcr_seg [(100.000) + pre-training(200.000)]
+
+	eval/miou_1.0_class_0[0.968189597]
+	eval/miou_1.0_class_1[0.587087393]
+	eval/miou_1.0_class_2[0.632744551]
+
+	eval/miou_1.0_overall[0.729340494]
+
+//mcr_seg_2 
+
+	eval/miou_1.0_class_0[0.957725465]
+	eval/miou_1.0_class_1[0.463593066]
+	eval/miou_1.0_class_2[0.550318897]
+
+	eval/miou_1.0_overall[0.657212496]
