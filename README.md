@@ -1,4 +1,4 @@
-# Semantic Segmentation with deep
+# Semantic Segmentation with depth
 
 REQUISITOS:
 python == 3.6.9
